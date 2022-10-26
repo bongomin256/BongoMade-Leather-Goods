@@ -6,8 +6,9 @@ import GlobalStyles from "./components/Styles/GlobalStyled";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import { Products } from "./components/Products";
+// import { Products } from "./components/Products";
 import Footer from "./components/Footer";
+import Shop from "./components/shop/Shop";
 
 const theme = {
   colors: {
@@ -31,7 +32,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             {/* <Route path="/cart" element={<Cart />} /> */}
-            <Route path="/products" element={<Products />} />
+            <Route path="/shop" element={<Shop />} />
           </Routes>
           {/* </Container> */}
           <Footer />

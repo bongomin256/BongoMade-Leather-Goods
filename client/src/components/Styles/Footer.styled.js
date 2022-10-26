@@ -15,6 +15,7 @@ export const FooterStyles = styled.section`
         list-style: none;
         line-height: 25px;
         color: #5d576b;
+        font-weight: 100;
       }
       #social-links {
         display: flex;
@@ -39,6 +40,7 @@ export const FooterStyles = styled.section`
       ul {
         list-style: none;
         line-height: 25px;
+        font-weight: 100;
         a {
           text-decoration: none;
           /* color: #878787; */
@@ -97,6 +99,9 @@ export const FooterStyles = styled.section`
               background-color: white;
               border: 2px solid #5d576b;
             }
+          }
+          span {
+            font-style: italic;
           }
         }
       }

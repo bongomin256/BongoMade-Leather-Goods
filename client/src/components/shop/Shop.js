@@ -1,12 +1,19 @@
 import React from "react";
-import { RiArrowDropDownLine } from "react-icons/ri";
+// import { RiArrowDropDownLine } from "react-icons/ri";
 import { ShopStyles } from "../Styles/Shop.styled";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Shop() {
   return (
     <ShopStyles>
-      <p>
+      {/* {ProductStyle.map((data) => (
+        <div className="card">
+          <div>
+            <img src={productLists.image} alt={productLists.name} />
+          </div>
+        </div>
+      ))} */}
+      {/* <p>
         Shop
         <RiArrowDropDownLine />
       </p>
@@ -20,7 +27,7 @@ export default function Shop() {
         <Link to="/keychains">Keychains</Link>
 
         <Link to="/customorders">Custom Orders</Link>
-      </div>
+      </div> */}
     </ShopStyles>
   );
 }

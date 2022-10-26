@@ -2,9 +2,9 @@ import React from "react";
 import { MdAccountCircle, MdShoppingCart } from "react-icons/md";
 import { VscAccount } from "react-icons/vsc";
 import Pages from "./pages/Pages";
-import Shop from "./shop/Shop";
 import { HeaderStyled } from "./Styles/Header.styled";
 import { Link } from "react-router-dom";
+import Products from "./products/Products";
 
 export default function Header() {
   return (
@@ -20,10 +20,10 @@ export default function Header() {
           </li>
           {/* <li>Shop</li> */}
           <li>
-            <Shop />
+            <Link to="/shop">Shop</Link>
           </li>
           <li>
-            <Link to="/products">Products</Link>
+            <Products />
           </li>
           <li>
             <Pages />
