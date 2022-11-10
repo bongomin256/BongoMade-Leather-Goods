@@ -19,7 +19,13 @@ export default function Signup() {
           id="last-name"
           placeholder="Last Name"
         />
-        <input type="password" name="password" id="password" />
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
         <input type="submit" value="sign up" id="signup" />
         <p>
           Already have an account <Link to="/login">Login</Link>
